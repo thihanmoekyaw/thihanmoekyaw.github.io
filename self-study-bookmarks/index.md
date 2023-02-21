@@ -21,6 +21,7 @@ Because I kinda use multiple computers, this in theory keep my housingkeeping si
 
 ## Personal Project
 - [Raymond Project](https://github.com/the-raymond-project/) is my side project if you wanna check it out!
+- [TypeIt](https://www.typeitjs.com/) (it is awesome)
 ## git stuffs
 - good luck with this one... I use ChatGPT for it... 
 - I used [this](https://dev.to/aormsby/how-to-set-up-a-hugo-site-on-github-pages-with-git-submodules-106p) to help me figure out git stuffs for this site. The blog literally saved me...
