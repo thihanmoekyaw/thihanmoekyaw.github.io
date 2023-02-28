@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "style.min.css",
-	"sourceRoot": "E:/github-repos/thihan-github-page-source-code",
+	"sourceRoot": "/Users/thihan/Desktop/github-proj/thihan-github-page-source-code",
 	"sources": [
 		"themes/LoveIt/assets/css/style.scss",
 		"themes/LoveIt/assets/lib/normalize/normalize.css",

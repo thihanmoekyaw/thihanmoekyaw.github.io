@@ -6,6 +6,7 @@ This page contains the contents of the GWAS & EWAS studies doing in collaboratio
 
 ## Tasks
 
+-  [ ] Review Dash Poltly ([link](https://www.youtube.com/watch?v=hSPmj7mK6ng&t=93s))
 -  [ ] Finish reviewing the [GWAS lectures](https://github.com/timeu/gwas-lecture)
 -  [ ] Reproduce Charles' code in my way
 
