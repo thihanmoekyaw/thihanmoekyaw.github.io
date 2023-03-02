@@ -2,11 +2,13 @@
 
 ## Intro
 
+<strong>What is this????</strong>
 This page contains the contents of the progresses GWAS & EWAS researchs in collaboration with the NCSA [Healthcare Innovation Program Office](https://ncsamainsite.web.illinois.edu/research/health-sciences/healthcare-innovation-program-office/) and the [STRONG KIDS 2](https://www.familyresiliency.illinois.edu/strong-kids-2-cells-society-approach-nutrition) study (specifically the part that I am involved in). I will be using this website to track my progresses. That being said, the files shared within UIUC and NCSA will be shared internally only and will only be shared publicly when all affiliated members agree to make it public.
 
-## Tasks
 
--  [ ] Review Dash Poltly ([link](https://www.youtube.com/watch?v=hSPmj7mK6ng&t=93s))
+## Tasks
+-  [ ] Implement Plotly to old graphs
+-  [X] Review Dash Poltly ([link](https://www.youtube.com/watch?v=hSPmj7mK6ng&t=93s))
 -  [ ] Finish reviewing the [GWAS lectures](https://github.com/timeu/gwas-lecture)  
 -  [ ] ~~Reproduce Charles' code in my way~~
 
@@ -27,4 +29,6 @@ This page contains the contents of the progresses GWAS & EWAS researchs in colla
 - Plotly released a version of dashboarding library in jupyter notebook called [JupyterDash](https://medium.com/plotly/introducing-jupyterdash-811f1f57c02e)
   - One thing about plotly dash is that it is also available for dashboarding on R and Julia (bioinformatics not available)
 
-
+{{<typeit>}}
+<strong>If you are not Thihan and looking at this page, you are probably one of my supervisors in NCSA.</strong> Hello Charles or Colleen, and thank you for checking my page! :heart:
+{{</typeit>}}
