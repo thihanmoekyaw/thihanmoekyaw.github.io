@@ -2,12 +2,12 @@
 
 ## Intro
 
-<strong>What is this????</strong>
-This page contains the contents of the progresses GWAS & EWAS researchs in collaboration with the NCSA [Healthcare Innovation Program Office](https://ncsamainsite.web.illinois.edu/research/health-sciences/healthcare-innovation-program-office/) and the [STRONG KIDS 2](https://www.familyresiliency.illinois.edu/strong-kids-2-cells-society-approach-nutrition) study (specifically the part that I am involved in). I will be using this website to track my progresses. That being said, the files shared within UIUC and NCSA will be shared internally only and will only be shared publicly when all affiliated members agree to make it public.
+<strong>What is this?</strong></br>
+This page contains the contents of the progresses in GWAS & EWAS researchs in collaboration with the NCSA [Healthcare Innovation Program Office](https://ncsamainsite.web.illinois.edu/research/health-sciences/healthcare-innovation-program-office/) and the [STRONG KIDS 2](https://www.familyresiliency.illinois.edu/strong-kids-2-cells-society-approach-nutrition) study (specifically the parts that I am involved in). I will be using this website to track my progresses. That being said, the files shared within UIUC and NCSA will be shared internally only and will only be shared publicly when all affiliated members agree to make it public.
 
 
 ## Tasks
--  [ ] Implement Plotly to old graphs
+-  [ ] Implement Plotly to old graphs 
 -  [X] Review Dash Poltly ([link](https://www.youtube.com/watch?v=hSPmj7mK6ng&t=93s))
 -  [ ] Finish reviewing the [GWAS lectures](https://github.com/timeu/gwas-lecture)  
 -  [ ] ~~Reproduce Charles' code in my way~~
@@ -15,6 +15,8 @@ This page contains the contents of the progresses GWAS & EWAS researchs in colla
 ## Useful links
 
 -  A guide to performing Polygenic Risk Score analyses ([link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7612115/))
+-  Plotly Manhattan Plot ([link](https://plotly.com/python/manhattan-plot/))
+    - Their [repo](https://github.com/plotly/dash-bio/blob/master/dash_bio/component_factory/_manhattan.py) (the documentation is not that useful as this point so you may have to go here for more info)
 
 ## Some notes
 
