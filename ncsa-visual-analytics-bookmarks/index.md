@@ -22,7 +22,7 @@ This page contains the contents of the progresses in GWAS & EWAS researchs in co
 
 ## Some notes
 
-### March 7th, 2034
+### March 7th, 2023
 
 - I implemented a mahantann plot in the google colab version using JupyterDash and Dash Bio
 
