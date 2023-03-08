@@ -1,4 +1,4 @@
-# NCSA Visual Analytics, Thihan's Bookmarks
+# NCSA Visual Analytics, Thihan
 
 ## Intro
 
@@ -20,7 +20,7 @@ This page contains the contents of the progresses in GWAS & EWAS researchs in co
 -  [X] Review Dash Poltly ([link](https://www.youtube.com/watch?v=hSPmj7mK6ng&t=93s))
 -  [ ] ~~Reproduce Charles' code in my way~~ 
 
-## Some notes
+## Progress notes
 
 ### March 7th, 2023
 
@@ -39,6 +39,8 @@ This page contains the contents of the progresses in GWAS & EWAS researchs in co
   - I graph the runtime relative to the number of rows in the data. I found out that the graph function run in a linear time.
 
   - I performed linear regressions to predict how long it takes in order to be able to make the plot in 25 seconds
+
+## Some notes
 
 ### March 1st, 2023
 
