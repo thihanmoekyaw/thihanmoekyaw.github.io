@@ -29,7 +29,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/thihanmoekyaw.github.io\/ncsa-visual-analytics-bookmarks\/"
-        },"genre": "posts","keywords": "NCSA, GWAS","wordcount":  518 ,
+        },"genre": "posts","keywords": "NCSA, GWAS","wordcount":  556 ,
         "url": "https:\/\/thihanmoekyaw.github.io\/ncsa-visual-analytics-bookmarks\/","datePublished": "2023-02-27T13:17:16-06:00","dateModified": "2023-03-08T02:02:10-06:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
@@ -103,7 +103,7 @@
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">NCSA Visual Analytics, Thihan</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="https://thihanmoekyaw.github.io" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Thihan Moe Kyaw</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="02-27-2023">02-27-2023</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;518 words&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="02-27-2023">02-27-2023</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;556 words&nbsp;
                 <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;3 minutes&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="true">
                 <div class="details-summary toc-title">
@@ -122,6 +122,7 @@
     </li>
     <li><a href="#some-notes">Some notes</a>
       <ul>
+        <li><a href="#match-8th-2023">Match 8th, 2023</a></li>
         <li><a href="#march-1st-2023">March 1st, 2023</a></li>
         <li><a href="#feb-28th-2023">Feb 28th, 2023</a></li>
       </ul>
@@ -154,16 +155,16 @@ This page contains the contents of the progresses in GWAS &amp; EWAS researchs i
 <h3 id="march-7th-2023">March 7th, 2023</h3>
 <ul>
 <li>
-<p>I implemented a mahantann plot in the google colab version using JupyterDash and Dash Bio</p>
+<p>I implemented a Manhattan plot in the Google Colab version using JupyterDash and Dash Bio.</p>
 </li>
 <li>
-<p>The first thing I did was to implement the notebook in the NCSA server with a JupyterLab docker container. I excrected the necessary data and reduce the data to the bare minimum requirement to plot it using dash_bio package.</p>
+<p>The first thing I did was to implement the notebook in the NCSA server with a JupyterLab Docker container. I extracted the necessary data and reduced the data to the bare minimum requirements to plot it using the dash_bio package.</p>
 <ul>
-<li>Side note: I also did a pull request to improve the documentation (it was very incomplete at the time I am writing right now)</li>
+<li>Side note: I also made a pull request to improve the documentation (it was very incomplete at the time of writing this).</li>
 </ul>
 </li>
 <li>
-<p>After things became reliable, I port it make the notebook to work in Google Colab. Our notebook is meant for researchers with a few python experience to be able to use the state-of-the-art tools in GWAS studies (and thus, making it reliable in Google Colab). Currently, these are the main things I have implemented so far for the mahanttan plot:</p>
+<p>After making things reliable, I ported the notebook to work in Google Colab. Our notebook is meant for researchers with some Python experience to use state-of-the-art tools in GWAS studies, making it reliable in Google Colab. Currently, these are the main things I have implemented so far for the Manhattan plot:</p>
 <ul>
 <li><a href="https://en.wikipedia.org/wiki/Bonferroni_correction" target="_blank" rel="noopener noreffer ">Bonferroni Correction</a>: a method of adjusting the p-value threshold for statistical significance when conducting multiple hypothesis tests</li>
 <li><a href="https://www.statology.org/benjamini-hochberg-procedure/" target="_blank" rel="noopener noreffer ">Benjamini-Hochberg Procedure</a>: a multiple testing correction method used to control the False Discovery Rate (FDR) in statistical hypothesis testing.</li>
@@ -173,18 +174,30 @@ This page contains the contents of the progresses in GWAS &amp; EWAS researchs i
 <p>After porting, I did a lot of testing to predict how long the graphing function is going to take. Here are some steps I&rsquo;ve taken:</p>
 <ul>
 <li>
-<p>Gathered data of the runtime of the mahantann plot to display (I put it in a dict)</p>
+<p>Gathered data on the runtime of the Manhattan plot to display (I put it in a dictionary).</p>
 </li>
 <li>
-<p>I graph the runtime relative to the number of rows in the data. I found out that the graph function run in a linear time.</p>
+<p>I graphed the runtime relative to the number of rows in the data. I found out that the graph function runs in linear time.</p>
 </li>
 <li>
-<p>I performed linear regressions to predict how long it takes in order to be able to make the plot in 25 seconds</p>
+<p>I performed linear regressions to predict how long it takes to make the plot in 25 seconds.</p>
 </li>
 </ul>
 </li>
 </ul>
 <h2 id="some-notes">Some notes</h2>
+<h3 id="match-8th-2023">Match 8th, 2023</h3>
+<ul>
+<li>why raw p-value and not FDR corrected p-value?
+<ul>
+<li>wait, it is the same as Benjamin Hochberg or no?</li>
+<li>It is a good idea to remove the teeny tiny genes in the analysis</li>
+<li>Biomarkers?</li>
+<li>The meeting said about focusing on particular sites.</li>
+<li>Maybe we get the extra chromosome function into the thingy</li>
+</ul>
+</li>
+</ul>
 <h3 id="march-1st-2023">March 1st, 2023</h3>
 <ul>
 <li>

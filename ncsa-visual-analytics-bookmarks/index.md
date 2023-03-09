@@ -24,23 +24,32 @@ This page contains the contents of the progresses in GWAS & EWAS researchs in co
 
 ### March 7th, 2023
 
-- I implemented a mahantann plot in the google colab version using JupyterDash and Dash Bio
+- I implemented a Manhattan plot in the Google Colab version using JupyterDash and Dash Bio.
 
-- The first thing I did was to implement the notebook in the NCSA server with a JupyterLab docker container. I excrected the necessary data and reduce the data to the bare minimum requirement to plot it using dash_bio package.
-  - Side note: I also did a pull request to improve the documentation (it was very incomplete at the time I am writing right now)
+- The first thing I did was to implement the notebook in the NCSA server with a JupyterLab Docker container. I extracted the necessary data and reduced the data to the bare minimum requirements to plot it using the dash_bio package.
+  - Side note: I also made a pull request to improve the documentation (it was very incomplete at the time of writing this).
 
-- After things became reliable, I port it make the notebook to work in Google Colab. Our notebook is meant for researchers with a few python experience to be able to use the state-of-the-art tools in GWAS studies (and thus, making it reliable in Google Colab). Currently, these are the main things I have implemented so far for the mahanttan plot:
+- After making things reliable, I ported the notebook to work in Google Colab. Our notebook is meant for researchers with some Python experience to use state-of-the-art tools in GWAS studies, making it reliable in Google Colab. Currently, these are the main things I have implemented so far for the Manhattan plot:
   - [Bonferroni Correction](https://en.wikipedia.org/wiki/Bonferroni_correction): a method of adjusting the p-value threshold for statistical significance when conducting multiple hypothesis tests
   - [Benjamini-Hochberg Procedure](https://www.statology.org/benjamini-hochberg-procedure/): a multiple testing correction method used to control the False Discovery Rate (FDR) in statistical hypothesis testing.
 
 - After porting, I did a lot of testing to predict how long the graphing function is going to take. Here are some steps I've taken:
-  - Gathered data of the runtime of the mahantann plot to display (I put it in a dict)
+  - Gathered data on the runtime of the Manhattan plot to display (I put it in a dictionary).
 
-  - I graph the runtime relative to the number of rows in the data. I found out that the graph function run in a linear time.
+  - I graphed the runtime relative to the number of rows in the data. I found out that the graph function runs in linear time.
 
-  - I performed linear regressions to predict how long it takes in order to be able to make the plot in 25 seconds
+  - I performed linear regressions to predict how long it takes to make the plot in 25 seconds.
 
 ## Some notes
+
+### Match 8th, 2023
+
+- why raw p-value and not FDR corrected p-value?
+  - wait, it is the same as Benjamin Hochberg or no?
+  - It is a good idea to remove the teeny tiny genes in the analysis
+  - Biomarkers?
+  - The meeting said about focusing on particular sites. 
+  - Maybe we get the extra chromosome function into the thingy
 
 ### March 1st, 2023
 
