@@ -13,9 +13,9 @@ I pursued my Bachelor's degree in Industrial Engineering from University of Illi
 
 ## Work Experience
 
-Currently, I am working as a Graduate Research Assistant at the National Center for Supercomputing Applications. I am responsible for automating machine learning models using Python for genomics study. Additionally, I am serving as the Lead Graduate Teaching Assistant (BDI 513: Data Storytelling) at Gies College of Business.
+Currently, I am working as a [Graduate Research Assistant at the National Center for Supercomputing Applications](https://www.ncsa.illinois.edu/people/staff-directory/?contact=tkyaw2). I am responsible for making biostatistics models and data visualizations for genomics studies. Additionally, I am serving as the Lead Graduate Teaching Assistant (BDI 513: Data Storytelling) at Gies College of Business.
 
-In the past, I've also served as a graudate Teaching Assistant for [CS 547: Deep Learning](https://publish.illinois.edu/r-sowers/ie534-cs-547-fall-2022/) and [IE 532: Integer Programming](https://ise.illinois.edu/undergraduate/courses/ie511) courses at Grainger College of Engineering. In my undergrad as well, I was a TA for the CS and the math department. Also, I was an undergrad research assistant at the [HiMER Lab](https://himer.lab.asu.edu/).
+In the past, I've also served as a Graduate Teaching Assistant for [CS 547: Deep Learning](https://publish.illinois.edu/r-sowers/ie534-cs-547-fall-2022/) and [IE 532: Integer Programming](https://ise.illinois.edu/undergraduate/courses/ie511) courses at Grainger College of Engineering. In my undergrad as well, I was a TA for the CS and the math department. Also, I was an undergrad research assistant at the [HiMER Lab](https://himer.lab.asu.edu/).
 
 ## Projects & Research Experiences
 
