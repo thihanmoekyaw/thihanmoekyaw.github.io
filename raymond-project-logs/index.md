@@ -38,7 +38,7 @@ In compliance to the "What is Raymond Project?" document provided by Shinzen, I 
 #### Technical Progress
 
 - I've made the Raymond javascript and node.js version to have the GPT prompts saved automatically.
-- I've ported made the Raymond project into a flask app as well. I really prefer this approach as flask is a lot more lightweight compared to using node.js. Additionally, I use python the most day-to-day as well.
+- I've ported and made the Raymond project backend into a flask app as well. I really prefer this approach as flask is a lot more lightweight compared to using node.js. Additionally, I use python the most day-to-day as well.
 
   - An additional feature that I've added is to save the chat history into .json file. In theory, this should also help to build a no-sql database in the future as well. Since the project is not that complicated yet, this is just for the purpose of storing the chat history. Here are some explanations of the `chat_history.json` file:
   
