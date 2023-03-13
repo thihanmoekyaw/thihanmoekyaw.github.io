@@ -23,6 +23,7 @@ I've compiled a bit of resources for the team to check out.
 - OpenAI-Cookbook, a good source of learning how to use OpenAI API ([link](https://github.com/openai/openai-cookbook))
 - Learn Prompting, A Free, Open Source Course on Communicating with Artificial Intelligence ([link](https://learnprompting.org/))
 - Adaptive Testing and Debugging of NLP Models (AdaTest) seminar ([link](https://www.youtube.com/watch?v=4Wontvr-gGQ&t=395s))
+- Open Assistant ([link](https://open-assistant.io/))
 
 Frontend Resources
 
