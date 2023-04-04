@@ -5,11 +5,11 @@
 
 I am Thihan Moe Kyaw!
 
-I am currently a student studying Master of Science in Industrial Engineering at UIUC. I focus more on the pratical implementation of AI systems.
+I am currently a student studying Master of Science in Industrial Engineering at UIUC. I focus more on the practical implementation of AI systems.
 
 ## Education
 
-I pursued my Bachelor's degree in Industrial Engineering from University of Illinois at Chicago ([UIC](https://www.uic.edu/)). I further continued my academic journey at the University of Illinois at Urbana-Champaign ([UIUC](https://illinois.edu)) for my Master of Science in Industrial Engineering. For various reasons, I now focus on AI, specifically in natural language processing. My formal concentration is in advanced analytics and operations research for my master program.
+I pursued my Bachelor's degree in Industrial Engineering from University of Illinois at Chicago ([UIC](https://www.uic.edu/)). I further continued my academic journey at the University of Illinois at Urbana-Champaign ([UIUC](https://illinois.edu)) for my Master of Science in Industrial Engineering. For various reasons, I now focus on AI, specifically in natural language processing. My formal concentration is advanced analytics and operations research for my master program.
 
 ## Work Experience
 
@@ -19,7 +19,7 @@ In the past, I've also served as a Graduate Teaching Assistant for [CS 547: Deep
 
 ## Projects & Research Experiences
 
-At the University of Illinois at Urbana-Champaign, I worked on a project for Terrorist Network Detection. I collaborated with Industrial Engineering students to create a machine learning model to classify and analyze potential networks between terrorist organizations using over 18,000 terrorist events. In UIC, I worked with fermilab (along with ME and IE students) to build a proof-of-concept robot for the maintainance of the [NuMI system](https://en.wikipedia.org/wiki/NuMI) using deep lerning for machine vision.
+At the University of Illinois at Urbana-Champaign, I worked on a project for Terrorist Network Detection. I collaborated with Industrial Engineering students to create a machine learning model to classify and analyze potential networks between terrorist organizations using over 18,000 terrorist events. In UIC, I worked with fermilab (along with ME and IE students) to build a proof-of-concept robot for the maintenance of the [NuMI system](https://en.wikipedia.org/wiki/NuMI) using deep learning for machine vision.
 
 ## Connecting with me
 

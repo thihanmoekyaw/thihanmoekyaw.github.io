@@ -13,6 +13,7 @@ This page contains the contents of the progresses in GWAS & EWAS researchs in co
     - Their [repo](https://github.com/plotly/dash-bio/blob/master/dash_bio/component_factory/_manhattan.py) (the documentation is not that useful as this point so you may have to go here for more info)
 
 ## Tasks
+
 -  [ ] Prototype the graph Charles taled about
 -  [ ] (optional) make the run gwas function parallizable
 -  [ ] Finish reviewing the [GWAS lectures](https://github.com/timeu/gwas-lecture) 
@@ -21,6 +22,45 @@ This page contains the contents of the progresses in GWAS & EWAS researchs in co
 -  [ ] ~~Reproduce Charles' code in my way~~ 
 
 ## Progress notes
+
+### April 3th, 2023
+
+#### Update: Manhattan Plot with Gene Pathway Highlighting
+
+#### Description
+
+We have made progress in adding a new feature to the existing Manhattan Plot implementation using the `dash_bio` package. The new feature allows the visualization of a specific gene pathway by highlighting the corresponding data points with a distinct color (green).
+
+#### Changes Made
+
+1. Modified the `NCSA_ManhattanPlot` function and the `_ManhattanPlot` class to accept an optional "IN_PATHWAY" parameter, which is a boolean column indicating whether a data point is part of the gene pathway of interest.
+
+2. Updated the figure generation code to adjust the color of the data points based on the "IN_PATHWAY" column values.
+
+3. Provided a method to process the existing "UCSC_REFGENE_GROUP" column in the input pandas dataframe, creating a new "IN_PATHWAY" column that can be used with the modified `NCSA_ManhattanPlot` function.
+
+#### Usage
+
+To use the updated Manhattan Plot with gene pathway highlighting:
+
+1. Process the input dataframe to create a new "IN_PATHWAY" boolean column based on the "UCSC_REFGENE_GROUP" column and the pathway keyword of interest (e.g., "Body").
+
+```python
+pathway_keyword = "Body"
+df["IN_PATHWAY"] = df["UCSC_REFGENE_GROUP"].apply(lambda x: pathway_keyword in str(x))
+```
+
+2. Pass the modified dataframe with the "IN_PATHWAY" column to the `NCSA_ManhattanPlot` function.
+
+```python
+fig = NCSA_ManhattanPlot(df, in_pathway="IN_PATHWAY")
+```
+
+This will generate a Manhattan Plot with data points in the specified gene pathway highlighted in green.
+
+#### Next Steps
+
+The team can now use the updated Manhattan Plot implementation to visualize specific gene pathways in their data. If needed, further customization or additional features can be added to the existing code.
 
 ### March 7th, 2023
 
