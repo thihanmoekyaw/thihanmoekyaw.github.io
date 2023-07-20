@@ -3,7 +3,15 @@
 ## Intro
 
 <strong>What is this?</strong></br>
-This page contains the contents of the progresses in GWAS & EWAS researchs in collaboration with the NCSA [Healthcare Innovation Program Office](https://ncsamainsite.web.illinois.edu/research/health-sciences/healthcare-innovation-program-office/) and the [STRONG KIDS 2](https://www.familyresiliency.illinois.edu/strong-kids-2-cells-society-approach-nutrition) study (specifically the parts that I am involved in). I will be using this website to track my progresses. That being said, the files shared within UIUC and NCSA will be shared internally only and will only be shared publicly when all affiliated members agree to make it public.
+This page contains the contents of the progresses in GWAS & EWAS researches in collaboration with the NCSA [Healthcare Innovation Program Office](https://ncsamainsite.web.illinois.edu/research/health-sciences/healthcare-innovation-program-office/) and the [STRONG KIDS 2](https://www.familyresiliency.illinois.edu/strong-kids-2-cells-society-approach-nutrition) study (specifically the parts that I am involved in). I will be using this website to track my progresses. That being said, the files shared within UIUC and NCSA will be shared internally only and will only be shared publicly when all affiliated members agree to make it public.
+
+### What is project about?
+
+Primarily, the direction that I went into this project is about improving data visualization in GWAS and EWAS study, especially in how to make the manhattan plot to be more interactive and easy for the research scientist to use. The aim of the project is to use the state-of-the-art packages available in open-source community and adding features in the source code. A traditional researcher in biology focus on the research and analysis and need to train themselves in coding to use state-of-the-art tools or get help from more knowledgeable research engineers. For this project, we aim to develop data visualizations based in google colab for dashboards.
+
+#### Why Google Colab?
+
+The packages we used are python based and we wanted a tool that we can share the researchers easy to use everywhere without the need to computational resources, while being very easy for minimal for the researchers to use. Because google colab offer free compute for everyone (at least at the time of writing), we decided to develop our dashboard to optimize with google colab.
 
 ## Useful links
 
@@ -14,14 +22,31 @@ This page contains the contents of the progresses in GWAS & EWAS researchs in co
 
 ## Tasks
 
--  [ ] Prototype the graph Charles taled about
--  [ ] (optional) make the run gwas function parallizable
--  [ ] Finish reviewing the [GWAS lectures](https://github.com/timeu/gwas-lecture) 
--  [X] Implement Plotly to old graphs (Mahantann Plot)
+-  [ ] (optional) make the run gwas function parallelizable
+-  [X] Prototype the graph Charles talked about
+-  [X] Implement Plotly to old graphs (Manhattan Plot)
 -  [X] Review Dash Poltly ([link](https://www.youtube.com/watch?v=hSPmj7mK6ng&t=93s))
 -  [ ] ~~Reproduce Charles' code in my way~~ 
 
 ## Progress notes
+
+### April 11th, 2024
+
+#### Update: Demo Manhattan Plot
+
+As part of the NCSA Student Research Conference, we made a prototype with a easy interface in google colab for researcher to test and evaluate.
+
+#### Changes Made
+
+1. Under supervision of Charles Blatti, the "IN_PATHWAY" parameter is changed to kegg annotation information, where the data is taken form the "kegg_annotation.txt" in the data cleaning function and merging with the processed dataframe. 
+2. There is a bug in the annotations of the `NCSA_ManhattanPlot` function and fixed it (took a while but FINALLYYYYY)
+3. Added radio buttons for the user to use either used the `Benjamini_Hochberg_val` function or to use the slider for the red line in the vizualization.
+4. Added a dropdown menu where user can select the gene pathway they want to display. The user can select multiple.
+5. For now, as a demonstration purpose, I changed the code so that the datafiles do not need authentication when runned on colab.
+
+#### Next Steps
+
+I will be preparing for the NCSA conference. After the conference, I will add more features such as ability to insert user's own gwas data. With Fatma's feedback (researcher for the GWAS study for the Strong Kids 2 study), I will make the visualization display orange dots even above the threshold line (the red line in the plot) if it is in the gene pathway.
 
 ### April 3th, 2023
 
@@ -33,7 +58,7 @@ We have made progress in adding a new feature to the existing Manhattan Plot imp
 
 #### Changes Made
 
-1. Modified the `NCSA_ManhattanPlot` function and the `_ManhattanPlot` class to accept an optional "IN_PATHWAY" parameter, which is a boolean column indicating whether a data point is part of the gene pathway of interest.
+1. Modified the `NCSA_ManhattanPlot` function and the `_ManhattanPlot` class to accept an optional "IN_PATHWAY" parameter, which is a boolean column indicating whether a data point is part of the gene pathway of interest.  `NCSA_ManhattanPlot` is the modified version of the `ManhattanPlot` source code from dash_bio python library. 
 
 2. Updated the figure generation code to adjust the color of the data points based on the "IN_PATHWAY" column values.
 
