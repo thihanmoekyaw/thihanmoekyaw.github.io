@@ -5,25 +5,19 @@
 
 I am Thihan Moe Kyaw!
 
-I just graduated from University of Illinois at Urbana-Champaign for my master degree in Industrial Engineering. I do a lot of stuffs with cutting edge researches and I love helping non-profits. Currently, my focus is in Artificial General Intelligence and seeing how can we go about creating such systems.
+I do a lot of stuffs with cutting edge researches. I am an industrial engineer by trait, and I go on solving a lot of my tasks with a multidisciplinary approach in mind.
 
-I am an engineer by trait, and I go on solving a lot of my tasks with a multidisciplinary approach in mind.
-
-Note: the last update to this page was on July 20th, 2023. This page maybe extremely outdated.
+Currently, my focus is in Artificial Intelligence and trying to can we go about creating simulations for generalized tasks, with safety as the top priority. I am open to help Artificial Intelligence projects/organization with my knowledge. My goal is to keep the current state of the AGI research in a safe manner so the works in AI research leads to a nash equilibrium rather than a zero-sum game (i.e. not nuclear war equivalent scenario in geopolitics of AI research)
 
 ## Education
 
-My last time in school was in University of Illinois at Urbana-Champaign ([UIUC](https://illinois.edu)) for my Master of Science in Industrial Engineering. Pretty cool place I would say. Since it is a public university and have a very well connected engineering school, I was exposed to some cutting edge stuffs in compting and met a lot of life long friends.
+Formal education wise, I pursued M.S in Industrial Engineering in University of Illinois at Urbana-Champaign ([UIUC](https://illinois.edu)). My formal concentration for the program was in advanced analytics and operations research. Due to the multidisciplinary nature of the program, my coursework was heavy on AI and ML on the engineering side, along with few courses from the Finance and Economic department.
 
-Before that, I pursued my Bachelor's degree in Industrial Engineering from University of Illinois at Chicago ([UIC](https://www.uic.edu/)). I focused more on process management and operations research back then. I was fairly young and was on a tight budget so I tried a lot of different things and helped a bunch of researches.
-
-For various reasons, I now focus on AI, and it is complicated. My formal concentration is advanced analytics and operations research for my master program.
+Before that, I pursued my Bachelor's degree in Industrial Engineering from University of Illinois at Chicago ([UIC](https://www.uic.edu/)). I focused more on process management and operations research for my undergrad.
 
 ## Work Experience
 
-Currently, I am working with non-profits on some AI projects. My main focus right now is to make sure we as humanity can create AGIs models that focuses on safety.
-
-I am currently helping some organizations but due to the respect for their privacy, I will update about these details later.
+I will update about the current work details later.
 
 I used to worked as a [Graduate Research Assistant at the National Center for Supercomputing Applications](https://www.ncsa.illinois.edu/). I was responsible for making biostatistics models and data visualizations for genomics studies. Alongside to it, I served as the Lead Graduate Teaching Assistant (BDI 513: Data Storytelling) at Gies College of Business.
 
@@ -41,4 +35,4 @@ In my free time, I like to host Japanese tea ceremonies! I was trained [at the J
 
 ## Connecting with me
 
-If you would like to connect, feel free to reach out via [LinkedIn](https://www.linkedin.com/in/thihanmoekyaw)! I am also looking for a job right so feel free to drop by some offers hehe.
+If you would like to connect, feel free to reach me out via [LinkedIn](https://www.linkedin.com/in/thihanmoekyaw)! Relating to this, I am open to job opportunities currently!
