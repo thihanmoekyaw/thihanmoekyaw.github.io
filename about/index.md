@@ -17,7 +17,7 @@ Before that, I pursued my Bachelor's degree in Industrial Engineering from Unive
 
 ## Work Experience
 
-I will update about the current work details later.
+** Note: due to confidentiality matters, this section may not be updated!**
 
 I used to worked as a [Graduate Research Assistant at the National Center for Supercomputing Applications](https://www.ncsa.illinois.edu/). I was responsible for making biostatistics models and data visualizations for genomics studies. Alongside to it, I served as the Lead Graduate Teaching Assistant (BDI 513: Data Storytelling) at [Gies College of Business](https://giesbusiness.illinois.edu/).
 
@@ -25,11 +25,13 @@ In the past, I've also served as a Graduate Teaching Assistant for [CS 547: Deep
 
 Also, I was an undergrad research assistant at the [HiMER Lab](https://himer.lab.asu.edu/)!
 
-## Some more experiences that I can share
+## Projects
 
 At the University of Illinois at Urbana-Champaign, I worked on a project for Terrorist Network Detection. I collaborated with Industrial Engineering students to create a machine learning model to classify and analyze potential networks between terrorist organizations using over 18,000 terrorist events.
 
 In UIC, I worked with Fermilab (along with ME and IE students) to build a proof-of-concept robot for the maintenance of the [NuMI system](https://en.wikipedia.org/wiki/NuMI) using deep learning for machine vision.
+
+More projects to be updated soon!
 
 ## Connecting with me
 
