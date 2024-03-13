@@ -13,7 +13,7 @@ My goal is to keep the current state of the AGI research in a safe manner so the
 
 ## Experiences
 
-I am a Research Software Engineer at the [National Center for Supercomputing Applications (NCSA)](https://www.ncsa.illinois.edu/), as part of the [Data Analytics team](https://www.ncsa.illinois.edu/expertise/data-analytics/). I work with researchers and industry partners to implement and deploy AI and ML researches into practical settings. I also provide software architectures and trainings for the use of high performance computing systems.
+I am currently a Research Software Engineer at the [National Center for Supercomputing Applications (NCSA)](https://www.ncsa.illinois.edu/), the birthplace of the [Mosaic Browser](https://en.wikipedia.org/wiki/Mosaic_(web_browser)). I am part of the [Data Analytics team](https://www.ncsa.illinois.edu/expertise/data-analytics/). I work with researchers and industry partners to implement and deploy AI and ML researches into practical settings. I also provide software architectures and trainings for the use of high performance computing systems.
 
 In my free times, advice non-profits and startups related to AGI research as part of my interest towards safe development of AGI researches and progresses.
 
